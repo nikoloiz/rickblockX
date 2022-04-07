@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "RickBlock+",
+  "version": "1.0.0",
+  "description": "Stops you from being rickrolled :)",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "https://www.youtube.com/watch?v=iik25wqIuFo",
+        "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+        "https://www.youtube.com/watch?v=oHg5SJYRHA0",
+        "https://www.youtube.com/watch?v=cvh0nX08nRw",
+        "https://www.youtube.com/watch?v=tmY-G6sngk8",
+        "https://www.youtube.com/watch?v=lpiB2wMc49g",
+        "https://www.youtube.com/watch?v=MO7bRMa9bmA",
+        "https://www.youtube.com/watch?v=O91DT1pR1ew",
+        "https://www.youtube.com/watch?v=HIcSWuKMwOw",
+        "https://www.youtube.com/watch?v=rTgj1HxmUbg",
+        "https://www.youtube.com/watch?v=f-tLr7vONmc",
+        "https://www.youtube.com/watch?v=lNv3pcPVhlY",
+        "https://www.youtube.com/watch?v=GBIIQ0kP15E",
+        "https://www.youtube.com/watch?v=ZVQfR27ISjM",
+        "https://www.youtube.com/shorts/-p7XUf4GvVU",
+        "https://www.youtube.com/watch?v=0lQqK-ofK3M",
+        "https://www.youtube.com/watch?v=-tMXNxmAO2k",
+        "https://www.youtube.com/watch?v=34Ig3X59_qA",
+        "https://www.youtube.com/watch?v=RmK_V1FHH-o",
+        "https://www.youtube.com/watch?v=ek5GyVM_0PA",
+        "https://www.youtube.com/watch?v=2PWySHl1kDk"
+      ],
+      "css": [
+        "button.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "button.css"
+  ]
+} 
